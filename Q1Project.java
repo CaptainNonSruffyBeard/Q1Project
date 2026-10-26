@@ -42,7 +42,7 @@ public class Q1Project {
 
         for (int i = 1; i <= players; i++) {
             HitOrStand(i);
-            if(i>players-1){
+            if(i<players-1){
                 System.out.println("Player "+(i+1)+" has a "+p[i+1]);
             }
         }
